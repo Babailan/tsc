@@ -1,3 +1,8 @@
-import addNumber from "./hello";
+type WindowStates = "Open" | "Closed" | "Minimized";
+interface Windows {
+  windowStates: WindowStates;
+}
 
-console.log(addNumber(5, 5));
+const Window1: Windows = {
+  windowStates: "Open",
+};

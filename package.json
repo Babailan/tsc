@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "rm -rf ./dist && tsc"
+    "dev": "rm -rf ./dist && tsc",
+    "watch": "rm -rf ./dist && tsc -w"
   },
   "devDependencies": {
     "typescript": "^4.7.4"
