@@ -5,12 +5,12 @@
     "outDir": "./dist",
     "target": "ES2015",
     "sourceMap": true,
-    "moduleResolution": "Node16",
+    "moduleResolution": "NodeNext",
     "strictNullChecks": true,
     "declaration": true,
     "declarationDir": "./dist/types",
     "declarationMap": true,
-    "module": "CommonJS"
+    "module": "ESNext"
   },
   "exclude": ["./testingPackage"]
 }

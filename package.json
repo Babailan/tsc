@@ -15,11 +15,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "rm -rf ./dist && tsc -w",
-    "serve": "ts-node-dev --watch --respawn --clear index.ts ",
-    "build:link":"rm -rf ./dist && tsc && tsc --module nodenext --outDir ./dist/esm"
+    "serve": "ts-node-dev ./index.ts "
   },
   "types": "./dist/types/index.d.ts",
-  "dependencies": {
-    "react": "^18.2.0"
-  }
+  "dependencies": {}
 }

@@ -1,1 +1,1 @@
-export * from "./src/evenOdd.js";
+import "./src/index";
