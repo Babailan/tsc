@@ -8,7 +8,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "dev": "rm -rf ./dist && tsc",
-    "serve": "ts-node-dev --watch --respawn --clear index.ts "
-  }
+    "dev": "rm -rf ./dist && tsc -w",
+    "ts-node": "ts-node-dev --respawn --clear index.ts "
+  },
+  "types": "./dist/types/index.d.ts"
 }

@@ -1,17 +1,4 @@
-interface Types {
-  number: [number];
-}
+import { h } from "./src/f";
+export * from "./src/index";
 
-const test: Types = {
-  number: [1],
-};
-
-const yawa: string | number = 2;
-
-function bigint(bigInt: any) {
-  console.log(bigInt);
-  bigInt += 1;
-  return bigint(bigInt);
-}
-const harorot = bigint(1);
-console.log(harorot);
+h(":F");
