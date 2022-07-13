@@ -1,1 +1,1 @@
-export { default as padLeft } from "./someFunction";
+export { default as bina } from "./bina";

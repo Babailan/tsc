@@ -1,4 +1,3 @@
-import { h } from "./src/f";
-export * from "./src/index";
+import { bina } from "./src/index";
 
-h(":F");
+console.log(bina([1, 22, 21]));

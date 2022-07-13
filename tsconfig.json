@@ -1,14 +1,18 @@
 {
   "compilerOptions": {
+    "types": ["bun-types"],
     "strict": false,
     "noEmitOnError": true,
     "noImplicitAny": false,
     "outDir": "./dist",
-    "target": "ES3",
+    "target": "ESNext",
     "sourceMap": true,
+    "moduleResolution": "NodeNext",
+    "strictNullChecks": true,
     "declaration": true,
     "declarationDir": "./dist/types",
     "declarationMap": true,
-    "moduleResolution": "NodeNext"
-  }
+    "module": "CommonJS"
+  },
+  "exclude": ["./testingPackage", "./dist"]
 }
