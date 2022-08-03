@@ -1,3 +1,10 @@
-import { bina } from "./src/index";
+function map<Input, Output>(arr: Input, func: (arr: Input) => Output) {
+  func(arr)
+}
+const h = {
+  naruto: "rongrong"
+}
 
-console.log(bina([1, 22, 21]));
+map(h, function (g) {
+
+})

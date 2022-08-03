@@ -6,8 +6,9 @@
  */
 
 function padLeft(padding: number, input: string) {
-  if (typeof padding === "number") {
-    return " ".repeat(padding) + input;
+  if (typeof padding === "string") {
+    parseInt(padding)
   }
 }
+
 export default padLeft;
