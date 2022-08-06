@@ -14,7 +14,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "rm -rf ./dist && tsc -w",
-    "serve": "ts-node-dev ./index.ts "
+    "serve": "tsc"
   },
   "types": "./dist/types/index.d.ts",
   "dependencies": {

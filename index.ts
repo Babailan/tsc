@@ -1,18 +1,9 @@
-function map<Input, Output>(arr: Input, func: (arr: Input) => Output) {
-  func(arr);
+function map<S, T>(arr: S[], func: (arg: S) => T) {
+  return arr.map(func);
 };
-function printConsole(s: string) {
+
+
+
+[1, 2, 3, 4].map((s) => {
   console.log(s);
-};
-interface CallOrConstruct {
-  new(s: string): Date;
-  (n?: number): number
-};
-type GreetFunction = (a: string) => void;
-function greeter(fn: GreetFunction) {
-  fn("Naruto");
-};
-greeter((d) => {
-  console.log(d);
 });
-const s = (["a", 2])
